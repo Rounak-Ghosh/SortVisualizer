@@ -43,17 +43,20 @@ body{
     transition: height 0.5s ease-in-out;
 }
 
-.ellipse{
-    position: absolute;
-    width: 70vw;
-    height: 70vw;
-    top: 120vh;
-    left: 17vw;
-    vertical-align: center;
-    background: #1EEDA2;
-    mix-blend-mode: screen;
-    filter: blur(308.518px);
+@media screen and (min-width: 800px){
+    .ellipse{
+        position: absolute;
+        width: 70vw;
+        height: 70vw;
+        top: 120vh;
+        left: 17vw;
+        vertical-align: center;
+        background: #1EEDA2;
+        mix-blend-mode: screen;
+        filter: blur(308.518px);
+    }
 }
+
 
 button {
     align-items: center;
@@ -77,8 +80,4 @@ button {
     text-align: center;
     text-transform: uppercase;
     vertical-align: middle;
-}
-
-.buttons_container{
-    margin-bottom: 10%;
 }
