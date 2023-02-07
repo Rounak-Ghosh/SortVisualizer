@@ -26,13 +26,12 @@ body{
 .bars_container{
     display: flex;
     flex-direction: row;
-    margin-top: 40vh;
+    margin-top: 30vh;
     backdrop-filter: blur(20px) saturate(200%);
     -webkit-backdrop-filter: blur(20px) saturate(200%);
     background-color: rgba(17, 25, 40, 0.5);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
-
 }
 
 .bar{
@@ -78,4 +77,8 @@ button {
     text-align: center;
     text-transform: uppercase;
     vertical-align: middle;
+}
+
+.buttons_container{
+    margin-bottom: 10%;
 }
