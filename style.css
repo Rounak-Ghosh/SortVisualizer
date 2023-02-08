@@ -81,3 +81,9 @@ button {
     text-transform: uppercase;
     vertical-align: middle;
 }
+
+@media only screen  and (min-height: 1080px){
+    .buttons_container{
+        margin-bottom: 500px;
+    }   
+}
