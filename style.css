@@ -3,7 +3,12 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Roboto,sans-serif;
-    overflow: hidden;
+}
+
+@media screen and (min-width: 800px){
+    *{
+        overflow: hidden;
+    }
 }
 
 body{
@@ -85,4 +90,4 @@ button {
     .buttons_container{
         margin-bottom: 500px;
     }  
-}
+}  
