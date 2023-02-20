@@ -8,13 +8,25 @@
     <title>Sort Visualizer</title>
 </head>
 <body>
-    <div class="ellipse"></div>
+    
     <div class="container">
         <div class="bars_container" id="bars_container"></div>
         <div class="buttons_container">
             <button id="randomize_array_btn"><span class="text">Shuffle</span></button>
+
+            <!--<button id="sort_btn1"><span class="text">Bubble Sort</span></button>
+            <button id="sort_btn2"><span class="text">Selection Sort</span></button>
+            <button id="sort_btn3"><span class="text">Insertion Sort</span></button> -->
+
+            <select class="dropdown" id="algo">
+                <option value="bubble">Bubble Sort</option>
+                <option value="insertion">Insertion Sort</option>
+                <option value="selection">Selection Sort</option>
+            </select>
+
             <button id="sort_btn"><span class="text">Sort</span></button>
         </div>
+        <div class="ellipse"></div>
     </div>
 
     <script src="main.js"></script>
