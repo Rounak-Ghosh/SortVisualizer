@@ -39,10 +39,6 @@ randomize_array.addEventListener("click", function () {
     renderBars(unsorted_array);
 });
 
-sort_btn.addEventListener("click", function () {
-    let 
-});
-
 function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
@@ -117,11 +113,11 @@ async function selectionSort(array) {
                 array[i] = temp;
                 bars[i].style.height = array[i] * 10 + "px";
                 bars[i].style.backgroundColor = "#BFD834";
-                bars[i+1].style.height = array[i+1] * 10 + "px";
-                bars[i+1].style.backgroundColor = "#BFD834";
                 await sleep(100);
             }
         }
+        bars[i+1].style.height = array[i+1] * 10 + "px";
+        bars[i+1].style.backgroundColor = "#BFD834";
     }
     return array;
 }
