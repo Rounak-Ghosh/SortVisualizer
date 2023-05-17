@@ -32,3 +32,10 @@ Welcome to Sorting Visualizer! I built this application because I was fascinated
 ## **Thank You**
 Made with Love ❤️️  &  Passion 🙏.
 > Like the project?? Give a star ⭐. Have a nice day!
+
+
+
+
+
+https://github.com/Rounak-Ghosh/SortVisualizer/assets/62801352/49cb0ed2-a82e-47e5-a920-4593482f435a
+
